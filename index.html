@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+<section class="shadow">
+    <div class="shadow__container container">
+        <div class="grid__col_6">
+            <div class="left-side">
+                <div class="settings-block">
+                    <label for="vertical" style="margin: 15px 0; color: white; font-size: 25px">vertical:</label>
+                    <input type="range" style="max-width: 400px; height: 15px" class="vertical" id="vertical" min="-100" max="100" value="0">
+                    <label for="horizontal" style="margin: 15px 0; color: white; font-size: 25px">horizontal:</label>
+                    <input type="range" style="max-width: 400px; height: 15px" class="horizontal" id="horizontal" min="-100" max="100" value="0">
+                    <label for="blur" style="margin: 15px 0; color: white; font-size: 25px">blur:</label>
+                    <input type="range" style="max-width: 400px; height: 15px" class="blur" id="blur" max="50" value="0">
+                    <label for="spread" style="margin: 15px 0; color: white; font-size: 25px">spread:</label>
+                    <input type="range" style="max-width: 400px; height: 15px" class="spread" id="spread" max="50" value="0">
+                    <label for="color" style="margin: 15px 0; color: white; font-size: 25px">color:</label>
+                    <input type="color" style="width: 50px; height: 50px; margin-bottom: 20px" class="color" id="color">
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="box">
+                    <div class="box-shadow-code"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
